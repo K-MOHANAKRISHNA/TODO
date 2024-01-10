@@ -13,7 +13,7 @@ class ToDoDataBase {
   }
 
   void loadData() {
-    toDoList = _myBox.get("TODOLIST");
+    toDoList = _myBox.get("TODOLIST") ?? [];
   }
 
 

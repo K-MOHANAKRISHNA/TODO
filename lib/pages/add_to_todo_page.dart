@@ -115,21 +115,7 @@ class _AddToTodoState extends State<AddToTodo> {
                   if(title.text.isEmpty || discription.text.isEmpty || dateController.text.isEmpty || type.text.isEmpty){
                     Get.snackbar("", "",backgroundColor: Colors.white,duration: const Duration(seconds: 2),titleText: const Text("WARNING",style: TextStyle(color:Colors.red,fontSize: 15,fontWeight: FontWeight.bold),),messageText: const Text("Please Fill the Form",style: TextStyle(fontSize: 15)),icon: const Icon(Icons.warning,color: Colors.red,));
                   }else{
-                    db.loadData();
-                    db.toDoList.add([
-                      title.text,
-                      discription.text,
-                      dateController.text,
-                      DateTime.now().toString(),
-                      type.text,
-                      false]
-                    );
-                    db.updateDataBase();
-                    title.clear();
-                    discription.clear();
-                    dateController.clear();
-                    type.clear();
-                    Get.to(()=> HomePage());
+                    saveNewTask();
                     // Navigator.push(context,MaterialPageRoute(builder: (context)=> const HomePage()));
                   }
 
