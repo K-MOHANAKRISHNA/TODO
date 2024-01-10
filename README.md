@@ -27,16 +27,25 @@ Feel free to customize and expand upon it based on your project's specifics!
  
  <b>Homepage</b>
  <br>
-  <img src="screenshots/no_tasks_yet.png" width="360" height="640"/>
-  <img src="screenshots/homepage.png" width="360" height="640"/>
+  <img src="screenshots/appinterface.jpeg" width="360" height="640"/>
+  <img src="screenshots/home_page.jpeg" width="360" height="640"/>
  <br>
  <br>
  <b>Add New Task</b>
  <br>
- <img src="screenshots/add_new_task.png" width="360" height="640"/>
+ <img src="screenshots/task_add_page.jpeg" width="360" height="640"/>
+ <br>
+ <b>Pick Date and Choose Priority Level</b>
+ <br>
+ <img src="screenshots/due_date_selection_page.jpeg" width="360" height="640"/>
+ <img src="screenshots/priority_level_selection_page.jpeg" width="360" height="640"/>
  <br>
  <br>
- <b>Pick Date and Time</b>
+ <b>Task Details</b>
  <br>
-  <img src="screenshots/pick_date.png" width="360" height="640"/>
-  <img src="screenshots/pick_time.png" width="360" height="640"/>
+  <img src="screenshots/task_details_page.jpeg" width="360" height="640"/>
+ <br>
+ <b>Task deletion>
+ <br>
+  <img src="screenshots/task_deletion_page.jpeg" width="360" height="640"/>
+ <br>
