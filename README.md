@@ -21,7 +21,15 @@ I've always relied on to-do lists, and for my first independent Dart/Flutter pro
 - **Language:** Flutter
 - **Data Storage:** Utilizes Hive for efficient local data storage.
 
-Feel free to customize and expand upon it based on your project's specifics!
+## Application Set-Up
+- To install Flutter, please follow these steps:
+
+- [Click Here](https://docs.flutter.dev/get-started/install/windows/mobile) to access the installation instructions.
+- Clone my application repository.
+- Run the application.
+
+## Contribution
+Contributions are welcome! If you want to contribute to the project, please create a pull request with a detailed explanation of the changes.
   
    <h1>Screenshots</h1>
  
